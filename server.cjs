@@ -3,7 +3,7 @@ const path = require('path');
 const app = express();
 
 // 監聽 Cloud Run 提供的 $PORT
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 8080;
 
 app.get('/rain-api', async (req, res) => {
   const url = 'https://wic.heo.taipei/OpenData/API/Rain/Get?stationNo=&loginId=open_rain&dataKey=85452C1D';
