@@ -57,7 +57,6 @@ substitutions:
   _REGION: 'asia-east1'  # 台灣
   _ARTIFACT_REPO: 'my-app-repo'
   _SERVICE_NAME: 'vue3-frontend'
-  _VITE_API_BASE_URL: 'https://your-backend-service-xxxxx.run.app/api'  # 部署後端後更新此 URL
 
 # 選項
 options:
